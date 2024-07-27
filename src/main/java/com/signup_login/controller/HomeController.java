@@ -11,7 +11,7 @@ public class HomeController {
     @GetMapping("/")
     public String home(Model model, @AuthenticationPrincipal UserDetailsImpl userDetails) {
         // 페이지 동적 처리 : 사용자 이름
-        model.addAttribute("username", userDetails.getUser().getUsername());
+        model.addAttribute("username", userDetails.getUsername());
 
         return "index";
     }

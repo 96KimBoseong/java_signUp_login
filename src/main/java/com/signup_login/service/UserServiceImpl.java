@@ -1,6 +1,5 @@
 package com.signup_login.service;
 
-import com.signup_login.dto.LoginRequestDTO;
 import com.signup_login.dto.SignupRequestDto;
 import com.signup_login.infra.jwt.JwtUtil;
 import com.signup_login.model.User;

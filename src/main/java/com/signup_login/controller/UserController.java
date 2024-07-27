@@ -1,9 +1,7 @@
 package com.signup_login.controller;
 
-import com.signup_login.dto.LoginRequestDTO;
 import com.signup_login.dto.SignupRequestDto;
 import com.signup_login.service.UserService;
-import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
