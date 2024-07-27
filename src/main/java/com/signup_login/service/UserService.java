@@ -6,6 +6,6 @@ import jakarta.servlet.http.HttpServletResponse;
 
 public interface UserService {
     public void signup(SignupRequestDto requestDto);
-    public void login(LoginRequestDTO requestDto, HttpServletResponse response);
+//    public void login(LoginRequestDTO requestDto, HttpServletResponse response);
 
 }

@@ -1,4 +1,4 @@
-package com.signup_login.infra.jwt.jwt;
+package com.signup_login.infra.jwt;
 
 import com.signup_login.model.UserRoleEnum;
 import io.jsonwebtoken.*;
