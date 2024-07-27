@@ -1,6 +1,6 @@
-package com.signup_login.jwt;
+package com.signup_login.infra.jwt.jwt;
 
-import com.signup_login.entity.UserRoleEnum;
+import com.signup_login.model.UserRoleEnum;
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.security.Keys;
 import io.jsonwebtoken.security.SignatureException;

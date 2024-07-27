@@ -1,4 +1,4 @@
-package com.signup_login.entity;
+package com.signup_login.model;
 
 public enum UserRoleEnum {
 

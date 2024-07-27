@@ -1,9 +1,8 @@
-package com.signup_login.entity;
+package com.signup_login.model;
 
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 @Entity
 @Getter
@@ -26,4 +25,11 @@ public class User {
     @Column(nullable = false)
     @Enumerated(value = EnumType.STRING)
     private UserRoleEnum role;
+
+    public User(String username, String password, String email, UserRoleEnum role) {
+        this.username = username;
+        this.password = password;
+        this.email = email;
+        this.role = role;
+    }
 }
