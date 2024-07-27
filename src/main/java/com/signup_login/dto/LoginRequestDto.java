@@ -3,9 +3,9 @@ package com.signup_login.dto;
 import lombok.Getter;
 import lombok.Setter;
 
-@Getter
 @Setter
-public class LoginRequestDTO {
+@Getter
+public class LoginRequestDto {
     private String username;
     private String password;
 }

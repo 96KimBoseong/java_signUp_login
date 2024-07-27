@@ -1,6 +1,6 @@
 package com.signup_login.filter;
 
-import com.signup_login.infra.jwt.jwt.JwtUtil;
+import com.signup_login.infra.jwt.JwtUtil;
 import com.signup_login.model.User;
 import com.signup_login.repository.UserRepository;
 import io.jsonwebtoken.Claims;
@@ -8,13 +8,12 @@ import jakarta.servlet.*;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.core.annotation.Order;
-import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
 import java.io.IOException;
 
 @Slf4j
-@Component
+//@Component
 @Order(2)
 public class AuthFilter implements Filter {
 
