@@ -8,7 +8,6 @@ public class ProductRequestDto {
     @NotBlank
     private String name;
     @Email
-    @Pattern(regexp = "^[a-zA-Z0-9_!#$%&'*+/=?`{|}~^.-]+@[a-zA-Z0-9.-]+$")
     private String email;
     @Positive(message = "양수만 가능합니다.")
     private int price;
