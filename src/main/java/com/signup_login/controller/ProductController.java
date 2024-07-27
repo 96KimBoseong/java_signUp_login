@@ -17,6 +17,8 @@ public class ProductController {
         // Authentication 의 Principal 에 저장된 UserDetailsImpl 을 가져옵니다.
         User user =  userDetails.getUser();
         System.out.println("user.getUsername() = " + user.getUsername());
+        System.out.println(user.getEmail());
+        System.out.println(user.getRole());
 
         return "redirect:/";
     }
